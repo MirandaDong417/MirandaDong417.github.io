@@ -1,57 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cheat Sheet</title>
-    <link rel="stylesheet" href="./styles.css" type="text/css">
-</head>
-<body>
-    <h1>Common CSS properties</h1>
-    <p class="author">by Miranda</p>
-
-    <table>
-        <thead>
-            <th>CSS Property</th>
-            <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td><p class="code">font-family</p></td>
-                <td>typeface of an element</td>
-            </tr>
-            <tr>
-                <td><p class="code">font-size</p></td>
-                <td>size of text displayed</td>
-            </tr>
-            <tr>
-                <td><p class="code">font-weight</p></td>
-                <td>how thin or thick text is displayed</td>
-            </tr>
-            <tr>
-                <td><p class="code">text-align</p></td>
-                <td>places text in the left, right, or center of its parent container</td>
-            </tr>
-            <tr>
-                <td><p class="code">color</p></td>
-                <td>color of the text</td>
-            </tr>
-            <tr>
-                <td><p class="code">background-color</p></td>
-                <td>color behind the text</td>
-            </tr>
-            <tr>
-                <td><p class="code">opacity</p></td>
-                <td>how not transparent the text is</td>
-            </tr>
-            <tr>
-                <td><p class="code">background-image</p></td>
-                <td>set the background of an element to an image</td>
-            </tr>
-        
-        </tbody>
-    </table>
+<html>
+  
+  <head>
+    <link href='styles.css' rel='stylesheet' type='text/css'/>
     
-</body>
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="navbar">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+      </div>
+    </header>
+    
+
+    <main>
+      <div class="top">
+        <div class="container">  
+          <h1>Xujia &#40;Miranda&#41; Dong</h1>
+          <img src="./Xujia_Dong.JPG">
+
+        </div>
+      </div>
+    </main>
+
+
+    <section class="content">
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <section class="subcontent">
+        <p>I am currently a sophomore student studying Computer Science and Data Science at UC Berkeley. I’m a quick learner with strong adaptability. If you're interested in contacting me, please feel free to reach out with the contact links below! I'll be glad to talk to you!
+      </section>
+
+    </section>
+
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <section class="subcontent">
+      <h3>University of California, Berkeley</h3>
+      <p>Aug 2018 - May 2022</p>
+      <p><span style="font-weight: bold">GPA: </span>3.94</p>
+      <p><span style="font-weight: bold">Majors: </span></p>
+      <ul>
+        <li>Computer Science</li>
+        <li>Data Science</li>
+      </ul>
+      <p><span style="font-weight: bold">Relevant Coursework: </span></p>
+      <ul>
+        <li>Data Structures</li>
+        <li>Discrete Mathematics and Probability Theory</li>
+        <li>Principles & Techniques of Data Science</li>
+        <li>Computational Structures in Data Science</li>
+        <li>Foundations of Data Science</li>
+        <li>Linear Algebra and Differential Equations</li>
+        <li>Multivariable Calculus</li>
+      </ul>
+    </section>
+
+    </section>
+
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <section class="subcontent">
+
+      <h3>Professional Experience</h3>
+      <ul>
+        <li>
+          <p><span style="font-weight: bold">Berkeley Division of Data Science and Information</span></p>
+          <p style="font-style: italic">Data Science Undergraduate Research Assistant</p>
+          <p><span style="color: rgb(138, 138, 138)">Berkeley, CA | Aug 2019 – Dec 2019</span></p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Credit Spectrum Corporation</span></p>
+          <p style="font-style: italic">Data Science Intern</p>
+          <p><span style="color: rgb(138, 138, 138)">New York City, NY | Jul 2019 – Aug 2019</span></p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Rhino Africa </span>(Africa’s leading safari company that provides personalized itineraries for travelers worldwide)</p>
+          <p style="font-style: italic">Data Science Intern</p>
+          <p><span style="color: rgb(138, 138, 138)">Lisbon, Portugal | Jun 2019 – Jul 2019</span></p>
+        </li>
+      </ul>
+
+      <h3>Organizations</h3>
+      <ul>
+        <li>
+          <p><span style="font-weight: bold">Student Association for Applied Statistics (SAAS)</span></p>
+          <p style="font-style: italic">Data Consultant</p>
+          <p><span style="color: rgb(138, 138, 138)">Berkeley, CA | Aug 2019 – Dec 2019</span></p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Data Science Society at Berkeley</span></p>
+          <p style="font-style: italic">Active Member</p>
+          <p><span style="color: rgb(138, 138, 138)">Berkeley, CA | Jan 2019 – May 2019</span></p>
+        </li>
+      </ul>
+
+      <h3>Projects</h3>
+      <ul>
+        <li>
+          <p><span style="font-weight: bold">Gitlet: </span>Built a version-control system (in Java) that mimics Git, including features like commit, log, checkout, branch, merge, etc.</p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Tablut: </span>Developed a chess game (with GUI) in Java, building an AI (automated player) using minimax search and alpha-beta pruning</p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Enigma: </span>Built a simulator in Java for the WWII Enigma machine that encrypts and decrypts messages using complex permutations</p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Signpost: </span>Implemented a puzzle game in Java that requires connecting the squares into a path following the arrows provided</p>
+        </li>
+        <li>
+          <p><span style="font-weight: bold">Wheel: </span>Created a word-guessing version of American game show Wheel of Fortune using object oriented programming in Python</p>
+        </li>
+      </ul>
+
+      </section>
+
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <section class="subcontent">
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+        <li>Excel(VBA)</li>
+        <li>Git</li>
+        <li>Google Analytics</li>
+        <li>Data Analysis</li>
+        <li>Data Visualization</li>
+        <li>Machine Learning</li>
+
+      </ul>
+      <h3>Business Skills</h3>
+      <ul>
+        <li>Cross-functional Stakeholding</li>
+        <li>Business Storytelling</li>
+        <li>Process Optimization</li>
+        <li>Sales Operations & Enablement</li>
+      </ul>
+
+      </section>
+      
+
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Information</h2>
+      <section class="subcontent">
+      <ul>
+        <li><a href="mailto:mirandadong417@berkeley">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/xujia-miranda-dong/" target="_blank">Linkedin</a></li>
+	      <li><a href="https://github.com/MirandaDong417" target="_blank">Github</a></li>
+      </ul>
+    </section>
+
+    </section>
+
+    </section>
+
+
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2020 Xujia Dong</p>
+      </div>
+    </footer>
+    
+  </body>
 </html>
